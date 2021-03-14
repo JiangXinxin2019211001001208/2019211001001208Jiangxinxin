@@ -1,4 +1,4 @@
-package com.example.jiangXinxin2019211001001208;
+package com.example.JiangXinxin2019211001001208;
 
 import java.io.*;
 import javax.servlet.http.*;

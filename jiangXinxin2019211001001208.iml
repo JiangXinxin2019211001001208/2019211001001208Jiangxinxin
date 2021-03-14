@@ -26,8 +26,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="14" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="tomcat" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="servlet-api" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.63" level="application_server_libraries" />
   </component>
 </module>
