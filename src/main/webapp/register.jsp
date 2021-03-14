@@ -11,11 +11,16 @@
     <title>Title</title>
 </head>
 <body>
-<a href="index.jsp">go to ecjtu</a>
+<a href="index.jsp"></a>
 <form>
-    Radio:<input type="text" name="radio"><br/>
-    Password:<input type="text" pe="text" name="password"><br/>
-    <input type="submit" value="submit"/>
+    username:<input type="text" name="username"  required><br>
+    password:<input type="password" name="password" required> <br>
+    email:<input type="email" name="email"  required><br>
+    Gender<input type="radio"name="myCheck" value="Male" checked >Male
+    <input type="radio" name="myCheck" value="Female">Female
+    <br>
+    BirthDate:<input type="date"  required><br>
+    <input type="submit" value="Register">
 </form>
 </body>
 </html>
