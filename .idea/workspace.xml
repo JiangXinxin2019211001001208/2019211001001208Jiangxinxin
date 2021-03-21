@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799156a9-9fe2-491a-a7f3-4bdf8de5994a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +53,16 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,7 +169,14 @@
       <workItem from="1615433519508" duration="165000" />
       <workItem from="1615705106014" duration="16776000" />
       <workItem from="1615726484830" duration="329000" />
-      <workItem from="1615726964414" duration="958000" />
+      <workItem from="1615726964414" duration="2486000" />
+      <workItem from="1615734714412" duration="77000" />
+      <workItem from="1615805992285" duration="622000" />
+      <workItem from="1615806634749" duration="185000" />
+      <workItem from="1615806831957" duration="205000" />
+      <workItem from="1615807048248" duration="47000" />
+      <workItem from="1615807107868" duration="187000" />
+      <workItem from="1616309694472" duration="7183000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615718419708</created>
@@ -200,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615727092836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW-Week 2 Commit">
+      <created>1615727931297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615727931297</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HW-Week 2 Commit">
+      <created>1615734758440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615734758440</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +272,6 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JiangXinxin2019211001001208$Tomcat_8_5_63.ic" NAME="Tomcat 8.5.63 Coverage Results" MODIFIED="1615726814150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JiangXinxin2019211001001208$Tomcat_8_5_63.ic" NAME="Tomcat 8.5.63 Coverage Results" MODIFIED="1616317070739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
