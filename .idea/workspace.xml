@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799156a9-9fe2-491a-a7f3-4bdf8de5994a" name="Default Changelist" comment="3.HE Week3 Commit">
+    <list default="true" id="799156a9-9fe2-491a-a7f3-4bdf8de5994a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiangXinxin2019211001001208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiangXinxin2019211001001208.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +51,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jiangxinxin" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/课设专用/Microsoft JDBC Driver 7.0 for SQL Server/sqljdbc_7.0/chs/mssql-jdbc-7.0.0.jre8.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Network" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 8.5.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.63" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="D:/游戏/IntelliJ IDEA 2020.3.2/jbr">
       <deployment>
         <artifact name="JiangXinxin2019211001001208:war exploded">
@@ -143,6 +157,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\鑫鑫\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="799156a9-9fe2-491a-a7f3-4bdf8de5994a" name="Default Changelist" comment="" />
@@ -165,7 +182,11 @@
       <workItem from="1615807048248" duration="47000" />
       <workItem from="1615807107868" duration="187000" />
       <workItem from="1616309694472" duration="7350000" />
-      <workItem from="1616552090312" duration="538000" />
+      <workItem from="1616552090312" duration="3368000" />
+      <workItem from="1616843539427" duration="812000" />
+      <workItem from="1616914734816" duration="4741000" />
+      <workItem from="1616919688742" duration="1383000" />
+      <workItem from="1616921299120" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615718419708</created>
@@ -216,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616318186072</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="3.HE Week3 Commit">
+      <created>1616563063390</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616563063390</updated>
+    </task>
+    <task id="LOCAL-00009" summary="3.HE Week3 Commit">
+      <created>1616563190398</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616563190398</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
