@@ -44,7 +44,7 @@ public class JDBCDemoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("i am in doGet()");
-        String sql="select * from usertable";
+        String sql = "select * from usertable";
         try {
             ResultSet rs = con.createStatement().executeQuery(sql);
             while (rs.next()){

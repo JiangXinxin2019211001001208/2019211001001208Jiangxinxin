@@ -1,4 +1,4 @@
-package JiangXinxin.week5.demo;
+package JiangXinxin.week6.demo;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
