@@ -26,12 +26,27 @@ public class UserDao implements IUserDao{
     }
 
     @Override
-    public Object findById(Connection con, Integer id) throws SQLException {
+    public boolean saveUser(Connection con, User user) throws SQLException {
+        return false;
+    }
+
+    @Override
+    public int deleteUser(Connection con, User user) throws SQLException {
+        return 0;
+    }
+
+    @Override
+    public int updateUser(Connection con, User user) throws SQLException {
+        return 0;
+    }
+
+    @Override
+    public User findById(Connection con, Integer id) throws SQLException {
         return null;
     }
 
     @Override
-    public Object findByUsernamePassword(Connection con, String username, String password) throws SQLException {
+    public User findByUsernamePassword(Connection con, String username, String password) throws SQLException {
         String sql="select id,username,password,email,gender,birthdate from usertable where username=? and password=?";
         PreparedStatement st=con.prepareStatement(sql);
         ResultSet rs= st.executeQuery();

@@ -85,7 +85,11 @@ public class User {
     public void setUsername(String username) {
     }
 
-    public char getUsername() {
+    public String getUsername() {
+        return null;
+    }
+
+    public char getBirthDate() {
         return 0;
     }
 }

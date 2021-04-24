@@ -20,6 +20,22 @@
         <servlet-name>ConfigDemoServlet</servlet-name>
         <servlet-class>com.JiangXinxin.week4.demo.ConfigDemoServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.JiangXinxin.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>com.JiangXinxin.controller.UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>update</url-pattern>
+    </servlet-mapping>
     <context-param>
         <param-name>name</param-name>
         <param-value>JiangXinxin</param-value>
@@ -62,5 +78,6 @@
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>home</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 </web-app>

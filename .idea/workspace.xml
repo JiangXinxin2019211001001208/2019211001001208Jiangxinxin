@@ -10,48 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799156a9-9fe2-491a-a7f3-4bdf8de5994a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userinfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/UpdateUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updateUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jiangXinxin2019211001001208_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiangXinxin2019211001001208.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jiangXinxin2019211001001208.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JiangXinxin/week5/demo/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JiangXinxin/week5/demo/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JiangXinxin/week6/demo/JdbcServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JiangXinxin/week6/demo/JdbcServletContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/week4/demo/ConfigDemoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/week4/demo/ConfigDemoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/week4/demo/student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week3/demo/LifeCycleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week3/demo/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week5/demo/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week5/demo/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/EncondingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/EncondingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/HelloWorldServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/JdbcServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/JdbcServletContextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/RedirectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JiangXinxin/week6/demo/SearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/JiangXinxin/week4/demo/ConfigDemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JiangXinxin/week4/demo/ConfigDemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/JiangXinxin/week4/demo/JDBCDemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JiangXinxin/week4/demo/JDBCDemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/JiangXinxin/week4/demo/student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/jiangXinxin2019211001001208/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/jiangXinxin2019211001001208/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week3/demo/LifeCycleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week3/demo/LifeCycleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week3/demo/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week5/demo/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week5/demo/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/EncondingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/EncondingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/HelloWorldServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/JdbcServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/JdbcServletContextListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/RedirectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/SearchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/JiangXinxin/week6/demo/SearchServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/JiangXinxin/week4/demo/ConfigDemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/JiangXinxin/week4/demo/ConfigDemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/JiangXinxin/week4/demo/JDBCDemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/JiangXinxin/week4/demo/JDBCDemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/JiangXinxin/week4/demo/student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/example/jiangXinxin2019211001001208/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/classes/com/example/jiangXinxin2019211001001208/HelloServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/jiangXinxin2019211001001208-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +35,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -278,7 +254,10 @@
       <workItem from="1618647520018" duration="14701000" />
       <workItem from="1618742868207" duration="5472000" />
       <workItem from="1618748578237" duration="1950000" />
-      <workItem from="1618750598535" duration="2542000" />
+      <workItem from="1618750598535" duration="2706000" />
+      <workItem from="1618753528861" duration="63000" />
+      <workItem from="1618806933471" duration="691000" />
+      <workItem from="1619259553011" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615718419708</created>
@@ -371,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618202647664</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="7.HE week7 Commit">
+      <created>1618753199588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618753199588</updated>
+    </task>
+    <task id="LOCAL-00015" summary="7.HE week7 Commit">
+      <created>1618807609089</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618807609089</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +413,8 @@
     <MESSAGE value="4.HE Week4 Commit" />
     <MESSAGE value="5.HE Week4 and week5 Commit" />
     <MESSAGE value="6.HE week6 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.HE week6 Commit" />
+    <MESSAGE value="7.HE week7 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.HE week7 Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
