@@ -89,7 +89,11 @@ public class User {
         return null;
     }
 
-    public char getBirthDate() {
-        return 0;
+    public java.sql.Date getBirthDate() {
+        return (java.sql.Date) birthdate;
+    }
+
+    public void setBirthDate(java.sql.Date birthdate) {
     }
 }
+

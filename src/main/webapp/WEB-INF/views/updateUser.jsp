@@ -5,9 +5,11 @@
   Time: 18:31
   To change this template use File | Settings | File Templates.
 --%>
+<html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <h1>User update</h1>
+<body>
 <%
     User u=(User)session.getAttribute("user");
 %>
@@ -29,3 +31,5 @@
     <input type="submit" value="Save Changes"style="background-color: #EAEAAE">
 </form>
 <%@include file="footer.jsp"%>
+</body>
+</html>
