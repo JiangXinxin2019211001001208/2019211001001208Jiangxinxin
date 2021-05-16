@@ -8,11 +8,6 @@ import java.util.Date;
 import java.util.List;
 
 public interface IUserDao {
-    boolean saveUser(Connection con, Object o) throws SQLException;
-
-    int deleteUser(Connection con, Object o) throws SQLException;
-
-    int updateUser(Connection con, Object o) throws SQLException;
 
     public boolean saveUser(Connection con, User user) throws SQLException;
     public int deleteUser(Connection con, User user) throws SQLException;

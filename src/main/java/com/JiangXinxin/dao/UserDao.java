@@ -9,34 +9,19 @@ import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
-public class UserDao implements IUserDao{
-
-    @Override
-    public boolean saveUser(Connection con, Object o) throws SQLException {
-        return false;
-    }
-
-    @Override
-    public int deleteUser(Connection con, Object o) throws SQLException {
-        return 0;
-    }
-
-    @Override
-    public int updateUser(Connection con, Object o) throws SQLException {
-        return 0;
-    }
+public class UserDao implements IUserDao {
 
     @Override
     public boolean saveUser(Connection con, User user) throws SQLException {
-        String sql="insert into usertable values(?,?,?,?,?,?)";
+        String sql = "insert into usertable values(?,?,?,?,?,?)";
         PreparedStatement pr = null;
         try {
             pr = con.prepareStatement(sql);
-            pr.setInt(1,user.getId());
-            pr.setString(2,user.getUsername());
-            pr.setString(3,user.getPassword());
-            pr.setString(4,user.getEmail());
-            pr.setString(5,user.getGender());
+            pr.setInt(1, user.getId());
+            pr.setString(2, user.getUsername());
+            pr.setString(3, user.getPassword());
+            pr.setString(4, user.getEmail());
+            pr.setString(5, user.getGender());
             pr.setDate(6, user.getBirthDate());
         } catch (SQLException e) {
             e.printStackTrace();
@@ -46,12 +31,12 @@ public class UserDao implements IUserDao{
 
     @Override
     public int deleteUser(Connection con, User user) throws SQLException {
-        String sql="delete from usertable where username=? and password=?";
+        String sql = "delete from usertable where username=? and password=?";
         PreparedStatement pr = null;
         try {
             pr = con.prepareStatement(sql);
-            pr.setString(1,user.getUsername());
-            pr.setString(2,user.getPassword());
+            pr.setString(1, user.getUsername());
+            pr.setString(2, user.getPassword());
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -60,15 +45,15 @@ public class UserDao implements IUserDao{
 
     @Override
     public int updateUser(Connection con, User user) throws SQLException {
-        String sql="update usertable set email=?,gender=?,birthdate=? where username=? and password=?";
+        String sql = "update usertable set email=?,gender=?,birthdate=? where username=? and password=?";
         PreparedStatement pr = null;
         try {
             pr = con.prepareStatement(sql);
-            pr.setString(1,user.getEmail());
-            pr.setString(2,user.getGender());
+            pr.setString(1, user.getEmail());
+            pr.setString(2, user.getGender());
             pr.setDate(3, (java.sql.Date) user.getBirthDate());
-            pr.setString(4,user.getUsername());
-            pr.setString(5,user.getPassword());
+            pr.setString(4, user.getUsername());
+            pr.setString(5, user.getPassword());
         } catch (SQLException e) {
             e.printStackTrace();
         }
