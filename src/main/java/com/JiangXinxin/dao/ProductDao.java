@@ -41,7 +41,7 @@ public class ProductDao implements  IProductDao{
     }
 
     @Override
-    public Product findById(Integer productId, Connection con) throws SQLException {
+    public static Product findById(Integer productId, Connection con) throws SQLException {
 
             String queryString = "select * from Product where productId=?";
             PreparedStatement pt = con.prepareStatement(queryString);

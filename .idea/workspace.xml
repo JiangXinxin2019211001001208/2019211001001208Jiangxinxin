@@ -10,21 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="799156a9-9fe2-491a-a7f3-4bdf8de5994a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/GetImgServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/ProductDetailsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/ShopServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/empty_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/cart/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/UserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/ProductListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/controller/ProductListServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JiangXinxin/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JspContextManager">
     <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
@@ -89,13 +86,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,7 +263,8 @@
       <workItem from="1621136894528" duration="13187000" />
       <workItem from="1621165821503" duration="45000" />
       <workItem from="1621261950037" duration="797000" />
-      <workItem from="1621752117078" duration="10496000" />
+      <workItem from="1621752117078" duration="10689000" />
+      <workItem from="1622338900647" duration="6081000" />
     </task>
     <task id="LOCAL-00001" summary="HW-Week 2 Commit">
       <created>1615718419708</created>
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621154763559</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="12.HE week12 Commit">
+      <created>1621762799584</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621762799584</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +452,8 @@
     <MESSAGE value="8.HE week8 Commit" />
     <MESSAGE value="9.HE week9 Commit" />
     <MESSAGE value="11.HE week11 Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.HE week11 Commit" />
+    <MESSAGE value="12.HE week12 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.HE week12 Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
