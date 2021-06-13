@@ -80,4 +80,12 @@
         <welcome-file>home</welcome-file>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <filter>
+        <filter-name>JiangXinxinFilter</filter-name>
+        <filter-class>com.JiangXinxin.lab2.JiangXinxinFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>JiangXinxinFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
 </web-app>
